@@ -1,5 +1,19 @@
 package com.corindiano.hackerrank_cracking_the_code_interview;
 
+/**
+ * See https://www.hackerrank.com/challenges/ctci-balanced-brackets.
+ *
+ * Input:
+ * 3
+ * {[()]}
+ * {[(])}
+ * {{[[(())]]}}
+ *
+ * Output:
+ * YES
+ * NO
+ * YES
+ */
 public class Ex07_BalancedBrackets {
     
     public static boolean solve(String expression) {
