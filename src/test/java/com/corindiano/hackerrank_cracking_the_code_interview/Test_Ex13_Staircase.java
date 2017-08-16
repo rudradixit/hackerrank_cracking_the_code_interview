@@ -24,7 +24,6 @@ public class Test_Ex13_Staircase {
 
     @Test
     public void testLongRunning() {
-//        assertArrayEquals(new int[]{181997601}, Ex13_Staircase.solve(new int[] {32}));
         assertArrayEquals(new int[]{181997601, 334745777, 1132436852, 2082876103, 2082876103}, Ex13_Staircase.solve(new int[] {32, 33, 35, 36, 36}));
     }
 }
